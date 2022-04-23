@@ -1,0 +1,41 @@
+#option__box{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px ;
+}
+
+#localization{
+    padding-top: 15px;
+}
+
+.language__button{
+    padding: 23px;
+    margin: 0 5px;
+    color: black;
+    background-color: #7E7E7E; /* Green */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.language__button:hover{
+    border-radius: 10px;
+    animation:blink-2 .9s both;
+}
+@keyframes blink-2{0%{opacity:1}50%{opacity:.2}100%{opacity:1}}
+
+.active{
+    background: #EDEDED;
+}
+
+@media screen and (max-width: 750px) {
+    #option__bar{
+        display: flex;
+        flex-direction: column;
+    }
+    #searchbar__text{
+        justify-content: center;
+    }
+}

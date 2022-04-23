@@ -1,0 +1,91 @@
+/* ------------------------------------------------ pagination*/
+
+#pagination-section {
+    width: 70vw;
+    margin-bottom: 200px;
+}
+
+#pagination {
+    height: 72px;
+}
+
+/* ------------------------------------------------ pagination button settings */
+#pagination button {
+    background-color: #222222;
+    color: #7e7e7e;
+    border: 0;
+    float: left;
+    padding: 8px 28px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+#pagination button:hover {
+    background-color: #7e7e7e;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#pagination button.active {
+    background-color: #7e7e7e;
+    color: #222222;
+    border-radius: 30px;
+}
+#pagination button:disabled {
+     background-color: #222222;
+    color: #7e7e7e;
+    /* border: 0;
+    float: left;  */
+    /* padding: 8px 28px; */
+    cursor: help;
+
+  
+}
+
+/* ------------------------------------------------ end of pagination*/
+/* ------------------------------------------------ Responsive */
+@media screen and (max-width: 980px) {
+    #pagination {
+        width: 70vw;
+    }
+    #pagination-section {
+        width: 50vw;
+    }
+    #pagination button {
+        padding: 8px 15px;
+    }
+}
+@media screen and (max-width: 730px) {
+    #pagination {
+        width: 80vw;
+    }
+    #pagination-section {
+        width: 80vw;
+    }
+    #pagination button {
+        padding: 4px 8px;
+    }
+}
+@media screen and (max-width: 680px) {
+    #pagination {
+        width: 70vw;
+    }
+    #pagination-section {
+        width: 70vw;
+    }
+    #pagination button {
+        padding: 4px 8px;
+    }
+}
+@media screen and (max-width: 350px) {
+    #pagination {
+        width: 100vw;
+    }
+    #pagination-section {
+        width: 100vw;
+    }
+    #pagination button {
+        padding: 4px 8px;
+    }
+}
+/* ------------------------------------------------ end of Responsive */

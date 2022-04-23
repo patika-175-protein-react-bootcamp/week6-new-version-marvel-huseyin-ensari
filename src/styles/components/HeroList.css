@@ -1,0 +1,48 @@
+/* ------------------------------------------------ hero list*/
+#hero-list {
+    width: 70vw;
+    margin-top: 10vh;
+    margin-bottom: 90px;
+    row-gap: 10px;
+}
+.card {
+    flex: 25%;
+    padding: 5px;
+    cursor: pointer;
+}
+.card:hover{
+    animation:blink-2 .9s both
+}
+@keyframes blink-2{0%{opacity:1}50%{opacity:.2}100%{opacity:1}}
+.divider {
+    width: 216px;
+    height: 1px;
+    background-color: #fff;
+    margin: 10px auto 3rem auto;
+}
+.img-frame {
+    border: #ffffff 1px solid;
+    margin: 0 auto;
+    position: relative;
+    width: 252px;
+    height: 360px;
+    text-align: center;
+}
+.hero-image {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+}
+#hero-name {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: white;
+}
+/* ------------------------------------------------ end hero list*/

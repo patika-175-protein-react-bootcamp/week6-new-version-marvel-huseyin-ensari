@@ -1,0 +1,91 @@
+/* ------------------------------------------------ configs*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body {
+    min-height: 100vh;
+}
+body {
+    background-color: #222222;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+/* ------------------------------------------------ end of configs*/
+/* ------------------------------------------------ utilies*/
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.gap{
+    gap: 15px;
+}
+
+.justify__center{
+    justify-content: center;
+}
+
+.justify__start{
+    justify-content: start;
+}
+
+.justify__around{
+    justify-content: space-around;
+}
+
+.justify__end{
+    justify-content: end;
+}
+
+.justify__between{
+    justify-content: space-between;
+}
+
+.align__center{
+    align-items: center;
+}
+.align__start{
+    align-items: flex-start;
+}
+.content__center{
+    align-content: flex-start;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.my-1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.h-100{
+    height: 100%;
+}
+
+
+/* ------------------------------------------------ end of utilies*/

@@ -1,0 +1,15 @@
+{
+    "homePage" : {
+        "searchCharacter" : "Search Character",
+        "searchInputPlaceHolder" : "Type the character you want to search.",
+        "searchNotFound" : "We couldn't find anything.",
+        "characterName" : "Character Name"
+    },
+    "detailPage" : {
+        "comics"  : "Comics",
+        "comicsnull" : "There is no comic book featuring the character.",
+        "series" : "Series",
+        "seriesNull" : "There is no series played by the character.",
+        "descriptionNull" : "Details about the character were not specified."
+    }
+}

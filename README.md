@@ -1,10 +1,44 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7665916&assignment_repo_type=AssignmentRepo)
-Week6 Marvel Exercise New Version
+# Version 2.0
 
-Özelikle dikkat etmenizi istediğimiz noktalar
+### [Click to try version 2 live](https://react-marvel-v2.netlify.app/)
 
-1. Auto complete (Arama alanı için)
-2. Detail page (Arama alanında çıkan sonuçlardan birine tıklanınca veya sayfadaki itemlardan birine tıklanınca)
-3. Multi Language (İngilizce, Türkçe, Fransızca)
+- Character Search Bar
+- Character Detail Page
+- Translation In 3 Languages
 
-Deadline - 24.04.2022 10:00
+Search bar example
+![search bar](./forReadme/searchBar.gif)
+
+Translation example
+![translation](./forReadme/changeLang.gif)
+
+Character detail page example
+![detail page](./forReadme/detailPage.png)
+
+## Version 1.0
+
+### [Click to try version 1 live](https://huseyin-react-marvel-1.netlify.app/)
+
+---
+
+When the site is entered, the necessary data is saved to the session storage. When the page is re-entered, no load is created on the api.
+
+This is what is meant in the image below.
+
+![responsive](./forReadme/marvel-react-full.gif)
+
+---
+
+An example of the responsive work of the site is the following image.
+
+![responsive](./forReadme/marvel-react-responsive.gif)
+
+---
+
+If you want to try the project in your local. Download(or clone) the project. Create .env file in home directory and fill it as below.
+
+```bash
+REACT_APP_API_BASE_URL = https://gateway.marvel.com
+REACT_APP_PUBLIC_KEY = < your public api key >
+REACT_APP_PRIVATE_KEY = < your private api key >
+```

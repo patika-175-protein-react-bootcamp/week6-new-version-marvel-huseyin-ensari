@@ -1,0 +1,15 @@
+{
+    "homePage" : {
+        "searchCharacter" : "Caractère de recherche",
+        "searchInputPlaceHolder" : "Tapez le caractère que vous souhaitez rechercher.",
+        "searchNotFound" : "Nous n'avons rien trouvé.",
+        "characterName" : "Le nom du personnage"
+    },
+    "detailPage" : {
+        "comics"  : "Des bandes dessinées",
+        "comicsnull" : "Il n'y a pas de bande dessinée mettant en scène le personnage.",
+        "series" : "Séries",
+        "seriesNull" : "Il n'y a pas de série jouée par le personnage.",
+        "descriptionNull" : "Les détails sur le personnage n'ont pas été précisés."
+    }
+}

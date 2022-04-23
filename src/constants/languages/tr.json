@@ -1,0 +1,15 @@
+{
+    "homePage" : {
+        "searchCharacter" : "Karakter Ara",
+        "searchInputPlaceHolder" : "Aramak istediğiniz karakteri yazınız.",
+        "searchNotFound" : "Hiç bir şey bulamadık.",
+        "characterName" : "Karakter Adı"
+    },
+    "detailPage" : {
+        "comics"  : "Çizgi Romanlar",
+        "comicsNull" : "Karakterin yer aldığı çizgi roman bulunmamaktadır.",
+        "series" : "Diziler",
+        "seriesNull" : "Karakterin oynadığı dizi bulunmamaktadır.",
+        "descriptionNull" : "Karakter ile ilgili detay belirtilmemiştir."
+    }
+}

@@ -1,0 +1,47 @@
+
+#search__box{
+    width: 55%;
+    position: relative;
+}
+
+#search__bar{
+    padding: 20px;
+    border: 1px solid #F4F4F4;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.search__result{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #434343;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    z-index: 100;
+}
+
+.search__result_item{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.search__result_item:hover{
+    animation:blink-2 .9s both;
+    cursor: pointer;
+    background-color: #7E7E7E;
+}
+@keyframes blink-2{0%{opacity:1}50%{opacity:.2}100%{opacity:1}}
+
+.search__result__not_found{
+    padding: 25px;
+    text-align: center;
+    font-size: 18;
+}
